@@ -1,0 +1,16 @@
+﻿Criterion,Direction,Weight (abs),Weight (rel),Public Cloud [Score],Private Cloud (External) [Score],Private Cloud (Internal) [Score],On-Prem [Score],Public Cloud [Part Worth],Private Cloud (External) [Part Worth],Private Cloud (Internal) [Part Worth],On-Prem [Part Worth]
+Internal Skill Requirement,maximize,6,0.0714,3,2,1,1,0.0714,0.0357,0,0
+Compliance and Data Protection,maximize,6,0.0714,2,3,3,3,0,0.0714,0.0714,0.0714
+Disaster Recovery,maximize,6,0.0714,3,3,2,1,0.0714,0.0714,0.0357,0
+Flexibility,maximize,6,0.0714,3,3,2,1,0.0714,0.0714,0.0357,0
+Innovation & Services,maximize,6,0.0714,3,3,2,1,0.0714,0.0714,0.0357,0
+Network Dependency,maximize,6,0.0714,1,2,3,3,0,0.0357,0.0714,0.0714
+Performance & Latency,maximize,6,0.0714,2,3,3,3,0,0.0714,0.0714,0.0714
+Security & Control,maximize,6,0.0714,2,3,3,3,0,0.0714,0.0714,0.0714
+Scalability,maximize,6,0.0714,3,3,2,1,0.0714,0.0714,0.0357,0
+Time-to-Market,maximize,6,0.0714,3,3,3,1,0.0714,0.0714,0.0714,0
+Availability & SLA,maximize,6,0.0714,3,3,2,2,0.0714,0.0714,0,0
+Vendor lock-in risk ,maximize,6,0.0714,1,2,3,3,0,0.0357,0.0714,0.0714
+Architectural suitability,maximize,6,0.0714,3,3,3,1,0.0714,0.0714,0.0714,0
+Costs (TCO 3-5 years),maximize,6,0.0714,1,1,1,1,0.0714,0.0714,0.0714,0.0714
+SUM,,84,1,,,,,0.6429,0.8929,0.7143,0.4286

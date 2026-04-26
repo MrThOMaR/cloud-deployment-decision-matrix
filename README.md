@@ -54,15 +54,19 @@ The guide will open in your browser at `http://localhost:3000`
 
 ## Structure
 ```
-📁 cloud-deployment-decision-matrix/docs/decision-matrix/en/
-├── 📄 book.toml                               # mdBook configuration
-└── 📁 src/
-    ├── 📄 SUMMARY.md                          # Table of contents
-    ├── 📄 definition-of-cloud-models.md       # Cloud model definitions
-    ├── 📄 decision-matrix.md                  # Decision matrix
-    └── 📄 explanations-of-criteria.md         # Detailed criteria
+📁 cloud-deployment-decision-matrix/docs/decision-matrix/
+├── 📁 en/
+│   ├── 📄 book.toml              # mdBook configuration
+│   └── 📁 src/
+│       ├── 📄 SUMMARY.md         # Table of contents
+│       ├── 📄 definition-of-cloud-models.md       # Cloud model definitions
+│       ├── 📄 decision-matrix.md                  # Decision matrix
+│       └── 📄 explanations-of-criteria.md         # Detailed criteria
+└── 📁 integrations/
+    └── 📁 mcda/
+        ├── 📄 README.md          # Integration guide
+        └── 📄 mcda-config.json   # MCDA tool configuration
 ```
-
 ## Key Features
 
 ### Decision Matrix
@@ -83,6 +87,18 @@ Special focus on how application architecture influences deployment decisions:
 - **Modern Enterprise** (Spring Boot, .NET Core, REST APIs)
 - **Traditional Application Servers** (JavaEE, WebSphere, Monoliths)
 - **Legacy Systems** (Mainframes, Hardware-dependent)
+
+## Integrations
+### Multi-Criteria Decision Analysis
+
+> This Multi-Criteria Decision Analysis (MCDA) tool was designed and developed by Dr. Sven-Erik Willrich — a professional-grade decision analysis framework built on rigorous quantitative methods, designed to transform complex multi-criteria decisions into structured, transparent, and defensible outcomes.
+>
+> — [Dr. Sven-Erik Willrich, MCDA Framework](https://svenwillrich.de/mcda/)
+
+We provide a ready-to-use configuration file for the MCDA tool. See [integrations/mcda/](docs/decision-matrix/integrations/mcda/) for:
+- Pre-configured criteria weights
+- Decision alternatives setup
+- Usage instructions
 
 ## Contributing
 
